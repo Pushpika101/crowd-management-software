@@ -41,7 +41,7 @@ const events = [
   },
   {
     id: "E4",
-    name: "E21 Exhibi0",
+    name: "E21 Exhibit",
     location: "Computer Dept",
     date: "2025-09-06",
     startTime: "13:00",
