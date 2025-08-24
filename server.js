@@ -6,8 +6,50 @@ app.use(express.json());
 
 // Temporary event data
 const events = [
-  { id: "E1", name: "Robotics Expo", location: "Hall A" },
-  { id: "E2", name: "AI Workshop", location: "Room 12" }
+  {
+    id: "E1",
+    name: "Robotics Expo",
+    location: "Lec Hall 6",
+    date: "2025-09-05",
+    startTime: "10:00",
+    endTime: "12:00",
+    description: "An exhibition showcasing student-built robots with live demos.",
+    organizer: "Robotics Club",
+    interestedCount: 23
+  },
+  {
+    id: "E2",
+    name: "AI Workshop",
+    location: "Room 12",
+    date: "2025-09-05",
+    startTime: "14:00",
+    endTime: "16:00",
+    description: "Hands-on workshop covering AI basics and building ML models.",
+    organizer: "AI Society",
+    interestedCount: 40
+  },
+  {
+    id: "E3",
+    name: "E21 Exhibit",
+    location: "Lec Hall 11",
+    date: "2025-09-06",
+    startTime: "09:00",
+    endTime: "11:30",
+    description: "Student innovations in electronics and IoT systems.",
+    organizer: "Department of Electrical Engineering",
+    interestedCount: 15
+  },
+  {
+    id: "E4",
+    name: "E21 Exhibi0",
+    location: "Computer Dept",
+    date: "2025-09-06",
+    startTime: "13:00",
+    endTime: "15:00",
+    description: "Software engineering projects and interactive demos.",
+    organizer: "Department of Computer Engineering",
+    interestedCount: 18
+  }
 ];
 
 // Route 1: List all events
